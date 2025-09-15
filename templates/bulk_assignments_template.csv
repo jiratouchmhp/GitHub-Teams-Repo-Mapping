@@ -1,0 +1,18 @@
+team_slug,repo_owner,repo_name,permission
+# 
+# GitHub Team-Repository Bulk Assignment Template
+# 
+# Instructions:
+# 1. Replace YOUR_ORG with your GitHub organization name
+# 2. Replace team slugs with your actual team slugs 
+# 3. Replace repository names with your actual repositories
+# 4. Choose permission levels: pull, triage, push, maintain, admin
+# 5. Remove these comment lines (starting with #)
+# 6. Save and use with the quick_start.py tool
+#
+
+# Example assignments (replace with your own):
+developers,YOUR_ORG,frontend-app,push
+qa-team,YOUR_ORG,frontend-app,pull
+devops,YOUR_ORG,infrastructure,admin
+backend-team,YOUR_ORG,api-service,push
