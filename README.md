@@ -1,6 +1,4 @@
-# 🚀 GitHub Team-Repository Mapping Tool# 🚀 GitHub Team-Repository Mapping Tool# 🚀 GitHub Team-Repository Mapping Tool# 🚀 GitHub Team-Repository Mapping Tool
-
-
+# 🚀 GitHub Team-Repository Mapping Tool 🚀 
 
 **Simple, powerful tool for managing GitHub team permissions at scale**
 
