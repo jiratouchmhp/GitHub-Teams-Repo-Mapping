@@ -1,212 +1,420 @@
-# 🚀 GitHub Team-Repository Mapping Tool 🚀 
-
-**Simple, powerful tool for managing GitHub team permissions at scale**
+# 🚀 GitHub Team-Repository Mapping Tool 🚀 # 
 
 
 
-Easily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale**
+**Simple, powerful tool for managing GitHub team permissions at scale****Simple, powerful tool for managing GitHub team permissions at scale**
 
 
 
-## ✨ What This Tool Does
+Easily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.
 
 
 
-- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale****Simple, powerful tool for managing GitHub team permissions at scale**
+## ✨ What This Tool DoesEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale**
+
+
+
+- 🔍 **Discover**: See all teams and repositories in your organization
 
 - 📊 **Analyze**: Generate detailed permission mappings  
 
-- 📋 **Manage**: Bulk assign permissions using CSV files
+- 📋 **Manage**: Bulk assign permissions using CSV files## ✨ What This Tool Does
 
 - 📄 **Export**: Save results in JSON format
 
-## ✨ What This Tool Does
+
 
 ## 🚀 Quick Start (2 Steps!)
 
-
+- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale****Simple, powerful tool for managing GitHub team permissions at scale**
 
 ### 1. Install Python Dependency
 
-```bash- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.Easily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.
-
-pip3 install requests
-
-```- 📊 **Analyze**: Generate detailed permission mappings  
-
-
-
-### 2. Run the Tool- 📋 **Manage**: Bulk assign permissions using CSV files
+- 📊 **Analyze**: Generate detailed permission mappings  
 
 ```bash
 
-python3 quick_start.py- 📄 **Export**: Save results in JSON and CSV formats
+pip3 install requests- 📋 **Manage**: Bulk assign permissions using CSV files
 
 ```
 
-## ✨ What This Tool Does## ✨ What This Tool Does
+- 📄 **Export**: Save results in JSON format
+
+### 2. Run the Tool
+
+## ✨ What This Tool Does
+
+```bash
+
+python3 quick_start.py## 🚀 Quick Start (2 Steps!)
+
+```
+
+
 
 **That's it!** The tool will ask for your GitHub token and organization name when you run it.
 
-## 🚀 Quick Start (2 Steps!)
+### 1. Install Python Dependency
 
 ### What You'll See:
 
+```bash- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.Easily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.
+
 - **Option 1**: Quick overview of teams & repos (safe to explore)
 
-- **Option 2**: Generate complete mapping 
+- **Option 2**: Generate complete mapping pip3 install requests
 
-- **Option 3**: Bulk assign permissions from CSV### 1. Install Python Dependency
+- **Option 3**: Bulk assign permissions from CSV
 
-- **Option 4**: Create template files
+- **Option 4**: Create template files```- 📊 **Analyze**: Generate detailed permission mappings  
 
-```bash- 🔍 **Discover**: See all teams and repositories in your organization- 🔍 **Discover**: See all teams and repositories in your organization
+
 
 ### 🤔 Need a GitHub Token?
 
-**No problem!** Here's how to get one in 2 minutes:pip3 install requests
+
+
+**No problem!** Here's how to get one in 2 minutes:### 2. Run the Tool- 📋 **Manage**: Bulk assign permissions using CSV files
 
 
 
-1. Go to [GitHub Settings > Developer Settings > Personal Access Tokens](https://github.com/settings/tokens)```- 📊 **Analyze**: Generate detailed permission mappings  - 📊 **Analyze**: Generate detailed permission mappings  
+1. Go to [GitHub Settings > Developer Settings > Personal Access Tokens](https://github.com/settings/tokens)```bash
 
 2. Click "Generate new token (classic)"
 
-3. Give it a name like "Team Repo Mapper"
+3. Give it a name like "Team Repo Mapper"python3 quick_start.py- 📄 **Export**: Save results in JSON and CSV formats
 
 4. Select these permissions:
 
-   - `read:org` (read organization data)### 2. Run the Tool- 📋 **Manage**: Bulk assign permissions using CSV files- 📋 **Manage**: Bulk assign permissions using CSV files
+   - `read:org` (read organization data)```
 
    - `repo` (repository access)
 
-   - `admin:org` (manage teams and permissions)```bash
+   - `admin:org` (manage teams and permissions)## ✨ What This Tool Does## ✨ What This Tool Does
 
 5. Click "Generate token" and copy it
 
-python3 quick_start.py- 📄 **Export**: Save results in JSON and CSV formats- 📄 **Export**: Save results in JSON and CSV formats
+**That's it!** The tool will ask for your GitHub token and organization name when you run it.
 
 **Keep your token safe!** You'll paste it when the tool asks.
 
-```
+## 🚀 Quick Start (2 Steps!)
 
 ## 📋 Bulk Permissions Made Easy
 
-
+### What You'll See:
 
 ### Create Your CSV File
 
-```bash**That's it!** The tool will ask for your GitHub token and organization name when you run it.
+- **Option 1**: Quick overview of teams & repos (safe to explore)
 
-# Copy the template
+```bash
 
-cp templates/bulk_assignments_template.csv my_permissions.csv## 🚀 Quick Start (3 Steps)## 🚀 Quick Start (3 Steps)
+# Copy the template- **Option 2**: Generate complete mapping 
+
+cp templates/bulk_assignments_template.csv my_permissions.csv
+
+- **Option 3**: Bulk assign permissions from CSV### 1. Install Python Dependency
 
 # Edit with your teams and repositories
-
-```### What You'll See:
-
-
-
-### Example CSV Format- **Option 1**: Quick overview of teams & repos (safe to explore)
-
-```csv
-
-team_slug,repo_owner,repo_name,permission- **Option 2**: Generate complete mapping 
-
-developers,myorg,frontend-app,push
-
-qa-team,myorg,frontend-app,pull- **Option 3**: Bulk assign permissions from CSV### 1. Setup Credentials### 1. Setup Credentials
-
-devops,myorg,infrastructure,admin
 
 ```- **Option 4**: Create template files
 
 
 
-### Apply the Changes```bash```bash
-
-```bash
-
-python3 quick_start.py### 🤔 Don't Have a GitHub Token Yet?
-
-# Choose option 3, select your CSV file
-
-```**No problem!** See [`WHAT_YOU_NEED.md`](WHAT_YOU_NEED.md) for a 5-minute setup guide.# Copy the template and add your details# Copy the template and add your details
+### Example CSV Format```bash- 🔍 **Discover**: See all teams and repositories in your organization- 🔍 **Discover**: See all teams and repositories in your organization
 
 
 
-The tool validates your CSV and shows you exactly what will change before applying.
+```csv### 🤔 Need a GitHub Token?
 
+team_slug,repo_owner,repo_name,permission
 
+developers,myorg,frontend-app,push**No problem!** Here's how to get one in 2 minutes:pip3 install requests
 
-## 🎯 Common Use Cases## 📋 Bulk Permissions Made Easycp templates/.env_template .envcp templates/.env_template .env
+qa-team,myorg,frontend-app,pull
 
-
-
-| Task | Steps |
-
-|------|-------|
-
-| **See what I have** | Run quick_start.py → Option 1 |### Create Your CSV File# Edit .env with your GitHub token and organization name# Edit .env with your GitHub token and organization name
-
-| **Full analysis** | Run quick_start.py → Option 2 |
-
-| **Bulk assign permissions** | Create CSV → Run quick_start.py → Option 3 |```bash
-
-| **Get templates** | Run quick_start.py → Option 4 |
-
-# Copy the template``````
-
-## 🔒 Permission Levels
-
-cp templates/bulk_assignments_template.csv my_permissions.csv
-
-| Level | Access |
-
-|-------|--------|# Edit with your teams and repositories
-
-| `pull` | Read only |
-
-| `triage` | Read + manage issues/PRs |```
-
-| `push` | Triage + push code |
-
-| `maintain` | Push + repository settings |### 2. Run the Tool### 2. Run the Tool
-
-| `admin` | Full access |
-
-### Example CSV Format
-
-## 📁 Project Structure
-
-```csv```bash```bash
+devops,myorg,infrastructure,admin
 
 ```
 
-github-team-repo-mapping/team_slug,repo_owner,repo_name,permission
+1. Go to [GitHub Settings > Developer Settings > Personal Access Tokens](https://github.com/settings/tokens)```- 📊 **Analyze**: Generate detailed permission mappings  - 📊 **Analyze**: Generate detailed permission mappings  
+
+### Apply the Changes
+
+2. Click "Generate new token (classic)"
+
+```bash
+
+python3 quick_start.py3. Give it a name like "Team Repo Mapper"
+
+# Choose option 3, select your CSV file
+
+```4. Select these permissions:
+
+
+
+The tool validates your CSV and shows you exactly what will change before applying.   - `read:org` (read organization data)### 2. Run the Tool- 📋 **Manage**: Bulk assign permissions using CSV files- 📋 **Manage**: Bulk assign permissions using CSV files
+
+
+
+## 🎯 Common Use Cases   - `repo` (repository access)
+
+
+
+| Task | Steps |   - `admin:org` (manage teams and permissions)```bash
+
+|------|-------|
+
+| **See what I have** | Run quick_start.py → Option 1 |5. Click "Generate token" and copy it
+
+| **Full analysis** | Run quick_start.py → Option 2 |
+
+| **Bulk assign permissions** | Create CSV → Run quick_start.py → Option 3 |python3 quick_start.py- 📄 **Export**: Save results in JSON and CSV formats- 📄 **Export**: Save results in JSON and CSV formats
+
+| **Get templates** | Run quick_start.py → Option 4 |
+
+**Keep your token safe!** You'll paste it when the tool asks.
+
+## 🔒 Permission Levels
+
+```
+
+| Level | Access |
+
+|-------|--------|## 📋 Bulk Permissions Made Easy
+
+| `pull` | Read only |
+
+| `triage` | Read + manage issues/PRs |
+
+| `push` | Triage + push code |
+
+| `maintain` | Push + repository settings |### Create Your CSV File
+
+| `admin` | Full access |
+
+```bash**That's it!** The tool will ask for your GitHub token and organization name when you run it.
+
+## 📁 Project Structure
+
+# Copy the template
+
+```
+
+github-team-repo-mapping/cp templates/bulk_assignments_template.csv my_permissions.csv## 🚀 Quick Start (3 Steps)## 🚀 Quick Start (3 Steps)
 
 ├── quick_start.py                      # 🚀 Main entry point - START HERE
 
-├── github_team_repo_mapper.py          # Core functionalitydevelopers,myorg,frontend-app,pushpython quick_start.pypython quick_start.py
+├── github_team_repo_mapper.py          # Core functionality# Edit with your teams and repositories
 
 ├── requirements.txt                    # Python dependencies
 
-├── README.md                           # This guideqa-team,myorg,frontend-app,pull
+├── README.md                           # This guide```### What You'll See:
 
 └── templates/                          # 📝 Ready-to-use templates
 
-    ├── bulk_assignments_template.csv   # CSV template for bulk assignmentsdevops,myorg,infrastructure,admin``````
+    ├── bulk_assignments_template.csv   # CSV template for bulk assignments
 
     └── .env_template                   # Environment configuration template
 
-``````
+```### Example CSV Format- **Option 1**: Quick overview of teams & repos (safe to explore)
 
 
 
-## 💡 Pro Tips
+## 💡 Pro Tips```csv
 
 
+
+- ✅ **Start small**: Test with a few assignments firstteam_slug,repo_owner,repo_name,permission- **Option 2**: Generate complete mapping 
+
+- ✅ **Validate first**: The tool checks your CSV before applying
+
+- ✅ **Backup current state**: Generate a mapping before making changesdevelopers,myorg,frontend-app,push
+
+- ✅ **Use team slugs**: Lowercase with hyphens (e.g., `frontend-team`)
+
+qa-team,myorg,frontend-app,pull- **Option 3**: Bulk assign permissions from CSV### 1. Setup Credentials### 1. Setup Credentials
+
+## 🔐 Authentication Options
+
+devops,myorg,infrastructure,admin
+
+### Option 1: Interactive (Recommended)
+
+Run `python3 quick_start.py` and enter your token when prompted.```- **Option 4**: Create template files
+
+
+
+### Option 2: Environment Variables
+
+```bash
+
+export GITHUB_TOKEN="your_token_here"### Apply the Changes```bash```bash
+
+export GITHUB_ORG="your_org_here"
+
+python3 quick_start.py```bash
+
+```
+
+python3 quick_start.py### 🤔 Don't Have a GitHub Token Yet?
+
+### Option 3: .env File
+
+```bash# Choose option 3, select your CSV file
+
+# Copy template and edit
+
+cp templates/.env_template .env```**No problem!** See [`WHAT_YOU_NEED.md`](WHAT_YOU_NEED.md) for a 5-minute setup guide.# Copy the template and add your details# Copy the template and add your details
+
+# Add your token and org name to .env file
+
+```
+
+
+
+## 🆘 Need Help?The tool validates your CSV and shows you exactly what will change before applying.
+
+
+
+- **New to this?** Just run `python3 quick_start.py` and choose Option 1 to explore safely
+
+- **Just want to explore?** Run `python3 quick_start.py` → Option 1
+
+- **Need templates?** Run `python3 quick_start.py` → Option 4## 🎯 Common Use Cases## 📋 Bulk Permissions Made Easycp templates/.env_template .envcp templates/.env_template .env
+
+
+
+## 📚 Output Formats
+
+
+
+### JSON Export| Task | Steps |
+
+The tool exports comprehensive mappings in JSON format with:
+
+- Organization summary|------|-------|
+
+- Repository details with team access
+
+- Team information with repository permissions| **See what I have** | Run quick_start.py → Option 1 |### Create Your CSV File# Edit .env with your GitHub token and organization name# Edit .env with your GitHub token and organization name
+
+- Complete permission matrix
+
+| **Full analysis** | Run quick_start.py → Option 2 |
+
+### Console Output
+
+Clean, formatted reports showing:| **Bulk assign permissions** | Create CSV → Run quick_start.py → Option 3 |```bash
+
+- Summary statistics
+
+- Team listings with member counts| **Get templates** | Run quick_start.py → Option 4 |
+
+- Repository access details
+
+- Permission breakdowns# Copy the template``````
+
+
+
+## 🔧 Technical Details## 🔒 Permission Levels
+
+
+
+### Requirementscp templates/bulk_assignments_template.csv my_permissions.csv
+
+- Python 3.6+
+
+- `requests` library| Level | Access |
+
+- GitHub Personal Access Token
+
+|-------|--------|# Edit with your teams and repositories
+
+### Rate Limiting
+
+The tool automatically handles GitHub API rate limits and includes respectful delays between requests.| `pull` | Read only |
+
+
+
+### Error Handling| `triage` | Read + manage issues/PRs |```
+
+Comprehensive error handling for:
+
+- Network issues| `push` | Triage + push code |
+
+- Authentication failures
+
+- Permission errors| `maintain` | Push + repository settings |### 2. Run the Tool### 2. Run the Tool
+
+- Invalid repository/team names
+
+| `admin` | Full access |
+
+## 🚨 Security Notes
+
+### Example CSV Format
+
+⚠️ **Important Security Considerations:**
+
+## 📁 Project Structure
+
+1. **Token Security**: Never commit tokens to version control
+
+2. **Minimum Permissions**: Use tokens with minimal required permissions```csv```bash```bash
+
+3. **Token Rotation**: Regularly rotate your access tokens
+
+4. **Environment Variables**: Store tokens securely using environment variables```
+
+
+
+## 🐛 Troubleshootinggithub-team-repo-mapping/team_slug,repo_owner,repo_name,permission
+
+
+
+### Common Issues├── quick_start.py                      # 🚀 Main entry point - START HERE
+
+
+
+1. **Authentication Error (401)**├── github_team_repo_mapper.py          # Core functionalitydevelopers,myorg,frontend-app,pushpython quick_start.pypython quick_start.py
+
+   - Verify your token is valid and not expired
+
+   - Ensure token has required permissions├── requirements.txt                    # Python dependencies
+
+
+
+2. **Forbidden Error (403)**├── README.md                           # This guideqa-team,myorg,frontend-app,pull
+
+   - Check if you have access to the organization
+
+   - May indicate rate limiting (handled automatically)└── templates/                          # 📝 Ready-to-use templates
+
+
+
+3. **Not Found Error (404)**    ├── bulk_assignments_template.csv   # CSV template for bulk assignmentsdevops,myorg,infrastructure,admin``````
+
+   - Verify organization name is correct
+
+   - Ensure repositories/teams exist and you have access    └── .env_template                   # Environment configuration template
+
+
+
+## 📝 License``````
+
+
+
+This project is provided as-is for educational and demonstration purposes. Please review GitHub's Terms of Service and API guidelines when using this script in production environments.
+
+
+
+---## 💡 Pro Tips
+
+
+
+**Ready to get started?** Run `python3 quick_start.py` now! 🚀
 
 - ✅ **Start small**: Test with a few assignments first### Apply the Changes
 
