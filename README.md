@@ -10,7 +10,7 @@ Easily map teams to repositories, analyze permissions, and bulk assign access ac
 
 
 
-## ✨ What This Tool DoesEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale**
+## ✨ What This Tool DoesEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization. ##
 
 
 
@@ -18,7 +18,7 @@ Easily map teams to repositories, analyze permissions, and bulk assign access ac
 
 - 📊 **Analyze**: Generate detailed permission mappings  
 
-- 📋 **Manage**: Bulk assign permissions using CSV files## ✨ What This Tool Does
+- 📋 **Manage**: Bulk assign permissions using CSV files
 
 - 📄 **Export**: Save results in JSON format
 
@@ -26,7 +26,7 @@ Easily map teams to repositories, analyze permissions, and bulk assign access ac
 
 ## 🚀 Quick Start (2 Steps!)
 
-- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.**Simple, powerful tool for managing GitHub team permissions at scale****Simple, powerful tool for managing GitHub team permissions at scale**
+- 🔍 **Discover**: See all teams and repositories in your organizationEasily map teams to repositories, analyze permissions, and bulk assign access across your GitHub organization.
 
 ### 1. Install Python Dependency
 
