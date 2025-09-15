@@ -2,7 +2,7 @@
 
 
 
-**Simple, powerful tool for managing GitHub team permissions at scale****Simple, powerful tool for managing GitHub team permissions at scale**
+**Simple, powerful tool for managing GitHub team permissions at scale**
 
 
 
