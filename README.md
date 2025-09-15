@@ -662,69 +662,66 @@ github-team-repo-mapping/github-team-repo-mapping/
 
 
 
-## 💡 Pro Tips## 💡 Pro Tips
+## 💡 Pro Tips ## 
 
 
 
-- ✅ **Start small**: Test with a few assignments first- ✅ **Start small**: Test with a few assignments first
+- ✅ **Start small**: Test with a few assignments first
 
-- ✅ **Validate first**: The tool checks your CSV before applying- ✅ **Validate first**: The tool checks your CSV before applying
+- ✅ **Validate first**: The tool checks your CSV before applying
 
-- ✅ **Backup current state**: Generate a mapping before making changes- ✅ **Backup current state**: Generate a mapping before making changes
+- ✅ **Backup current state**: Generate a mapping before making changes
 
-- ✅ **Use team slugs**: Lowercase with hyphens (e.g., `frontend-team`)- ✅ **Use team slugs**: Lowercase with hyphens (e.g., `frontend-team`)
-
-
-
-## 🆘 Need Help?## 🆘 Need Help?
+- ✅ **Use team slugs**: Lowercase with hyphens (e.g., `frontend-team`)
 
 
-
-**For beginners**: Just run `python quick_start.py` and follow the menu!**For beginners**: Just run `python quick_start.py` and follow the menu!
+## 🆘 Need Help? ##
 
 
 
-**For advanced users**: Check out the `utils/` directory for additional tools.**For advanced users**: Check out the `utils/` directory for additional tools.
+**For beginners**: Just run `python quick_start.py` and follow the menu!**
 
 
 
-**For examples**: Look in the `samples/` directory for detailed examples.**For examples**: Look in the `samples/` directory for detailed examples.
+**For advanced users**: Check out the `utils/` directory for additional tools.**
 
 
 
-## 📚 Advanced Features## 📚 Advanced Features
+**For examples**: Look in the `samples/` directory for detailed examples.**
 
 
 
-If you need more control, explore the `utils/` directory:If you need more control, explore the `utils/` directory:
+## 📚 Advanced Features ## 
 
 
 
-- `csv_utils.py` - CSV validation and conversion tools- `csv_utils.py` - CSV validation and conversion tools
-
-- `advanced_utils.py` - Security reports and advanced exports  - `advanced_utils.py` - Security reports and advanced exports  
-
-- `csv_integration_example.py` - Detailed CSV workflow examples- `csv_integration_example.py` - Detailed CSV workflow examples
+If you need more control, explore the `utils/` directory:
 
 
+- `csv_utils.py` - CSV validation and conversion tools.
 
-## 🤝 Support## 🤝 Support
+- `advanced_utils.py` - Security reports and advanced exports.
+
+- `csv_integration_example.py` - Detailed CSV workflow examples.
 
 
 
-- 📖 **Documentation**: Check `samples/sample_csv_files.md` for detailed CSV format docs- 📖 **Documentation**: Check `samples/sample_csv_files.md` for detailed CSV format docs
+## 🤝 Support## 
 
-- 🐛 **Issues**: Open an issue on GitHub  - 🐛 **Issues**: Open an issue on GitHub  
 
-- 💡 **Feature requests**: We'd love to hear your ideas!- 💡 **Feature requests**: We'd love to hear your ideas!
+
+- 📖 **Documentation**: Check `samples/sample_csv_files.md` for detailed CSV format docs.
+
+- 🐛 **Issues**: Open an issue on GitHub.  
+
+- 💡 **Feature requests**: We'd love to hear your ideas!.
 
 
 
 ------
 
 
-
-**Ready to get started?** Run `python quick_start.py` now!**Ready to get started?** Run `python quick_start.py` now!
+**Ready to get started?** Run `python quick_start.py` now!**
 ```
 
 ## Output Format
